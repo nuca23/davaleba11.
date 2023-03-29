@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    }
+body{
+    background-image: url(cover.png);
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+
+}
+.container{
+   width: 50%;
+   height: 50%; 
+   margin: 0;
+   float: left;
+   margin-top:15%;
+   margin-left: 15%;
+}
+.form{
+    height: 50%; 
+    margin: 0;
+    float: left;
+    padding-left: 30px;
+    margin-top: 10%;
+    background-color: white;
+    padding-bottom: 20px;
+
+}
+.h1{
+    width: 800px;
+    height: 240px;
+    Font:Montserrat;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    padding-top: 15%;
+    
+
+}
+.h4{
+    width: 539px;
+    height: 60px;
+    
+}
+.name{
+    width: 200px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: #F9F9F9;
+    font-size: 14px;
+}
+.email{
+    width:200px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: #F9F9F9; 
+    font-size: 14px;
+    
+}
+    
+.btn1{
+    height: 28px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    background: #00A0C1;
+    border: none;
+
+    /* light-text-color */
+    color: #ffffff;
+    border-radius: 15px;
+    margin: 7px;
+    flex: none;
+    font-size:14px;
+}
+.btn2{
+    height: 28px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    color: #00A0C1;
+    border-radius: 15px;
+    border: none;
+}
+
+h3{
+    width: 233px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-color:#252B42;
+}
+.h6{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    letter-spacing: 0.2px;
+    /* text-color */
+    color: #252B42;
+}
+.btn3{
+    height: 58px;
+    background: #FFA62B;
+    border-radius: 5px;
+    display: flex;
+    padding: 15px 40px;
+    gap: 10px;
+    flex: none;
+    flex-grow: 0px;
+    Weight: 700;
+    Size: 14px;
+    Line-height: 28px;
+    Align: Center;
+   /* light-text-color */
+    color:#ffffff;
+    border: none;
+    margin-top: 10%;
+}
+select{
+    width:200px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: #F9F9F9;
+    font-size: 14px;
+}
+
